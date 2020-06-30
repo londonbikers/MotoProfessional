@@ -1,0 +1,53 @@
+﻿<asp:GridView
+    GridLines="None"
+    HeaderStyle-CssClass="GridViewHeader"
+    HeaderStyle-HorizontalAlign="Left"
+    AlternatingRowStyle-CssClass="GridViewAlternatingRow"
+    RowStyle-CssClass="GridViewRow"
+    BorderStyle="None"
+    BorderWidth="0px"
+    BorderColor="Transparent"
+    Width="100%"
+    runat="server" />
+    
+<asp:GridView
+    SkinID="CompactLarge"
+    HeaderStyle-CssClass="GridViewHeader"
+    HeaderStyle-HorizontalAlign="Left"
+    AlternatingRowStyle-CssClass="GridViewAlternatingRowLarge"
+    RowStyle-CssClass="GridViewRowLarge"
+    BorderStyle="None"
+    BorderWidth="0px"
+    BorderColor="Transparent"
+    runat="server" />
+    
+<asp:GridView 
+    SkinID="Light"
+    GridLines="None"
+    HeaderStyle-CssClass="GridViewHeader"
+    HeaderStyle-HorizontalAlign="Left"
+    RowStyle-CssClass="GridViewLightRow"
+    BorderStyle="None"
+    BorderWidth="0px"
+    BorderColor="Transparent"
+    Width="100%"
+    runat="server" />
+    
+<asp:GridView 
+    SkinID="LightContained"
+    GridLines="None"
+    HeaderStyle-CssClass="GridViewHeader"
+    HeaderStyle-HorizontalAlign="Left"
+    RowStyle-CssClass="GridViewLightRow"
+    BorderStyle="None"
+    BorderWidth="0px"
+    BorderColor="Transparent"
+    Width="100%"
+    runat="server" />
+    
+<asp:Button
+    Font-Bold="true" 
+    Font-Names="Arial" 
+    Font-Size="16px"
+    runat="server"
+    SkinID="Big" />

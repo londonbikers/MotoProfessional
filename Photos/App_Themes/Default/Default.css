@@ -1,0 +1,1024 @@
+﻿/* =============[ ELEMENTS ]============== */
+
+body {
+	background-color: #000;
+	font-size: 11px;
+	font-family: Verdana;
+	color: #acacac;
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+	font-family: Arial;
+	font-size: 26px;
+	font-weight: normal;
+	margin: 0px 0px 10px 0px;
+}
+
+h2 {
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	color: #00a4f1;
+	margin: 0px 0px 10px 0px;
+}
+
+h4 {
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px 0px 10px 0px;
+}
+
+h5 {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0px 0px 10px 0px;
+}
+
+hr {
+	border: 0px;
+	color: #333;
+	height: 1px;
+	background-color: #333;
+	width: 100%;
+}
+
+img {
+	vertical-align: middle;
+}
+
+ul {
+	line-height: 17px;
+	margin-top: 0px;
+}
+
+/* =============[ BASIC LAYOUT ]============== */
+
+div.SuperContainer {
+	margin: 0px auto;
+	width: 950px;
+}
+
+div.Grey {
+	background-color: #333333;
+}
+
+div.Clear {
+	clear: both;
+}
+
+table.Form td {
+	padding: 3px 3px 3px 0px;
+	vertical-align: top;
+}
+
+div.DottedBox {
+	border-bottom: dotted 1px #333; 
+	padding-bottom: 6px; 
+	margin-bottom: 6px;
+}
+
+div.DottedBottom {
+	border-bottom: dotted 1px #333; 
+	padding-bottom: 10px;
+}
+
+div.FormBox
+{
+	border-top: solid 1px #333;
+	border-bottom: solid 2px #444;
+	background-color: #171717;
+	padding: 10px;
+}
+
+div.PhotoTile {
+	padding: 5px;
+	float: left;
+}
+
+div.PhotoTileImageFrame {
+	border: solid 3px #333;
+}
+
+div.PhotoTileImageFrame:hover {
+	border: solid 3px #00a4f1;
+}
+
+div.PhotoTileImageFrameHighlight {
+	border: solid 3px #fff;
+}
+
+div.PhotoTileImageFrameHighlight:hover {
+	border: solid 3px #00a4f1;
+}
+
+.Center {
+	margin: 0px auto;
+}
+
+.PhotoTileGhost {
+	border: solid 3px #ccc;
+	background-color: #000;
+	z-index: -1;
+}
+
+table.Spacer {
+	width: 100%;
+	padding: 0px;
+}
+
+ul.Custom {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+ul.Pinned {
+	padding-left: 15px;
+	margin: 10px;
+	list-style-image: url(../../_images/bullet_black.png);
+	vertical-align: middle;
+	text-indent: -0.3em;
+}
+ul.Pinned li { margin-top: -2px;
+}
+ul.Pinned ul {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	vertical-align: middle;
+	list-style-image: url(../../_images/silk/bullet_black.png);
+}
+
+ul.Black {
+	padding-left: 10px;
+	margin: 10px;
+	vertical-align: middle;
+	list-style-image: url(../../_images/bullet_black.png);
+	/*text-indent: -0.6em;*/
+}
+
+/* =================[ LINKS ]================= */
+
+a.Regular, a {
+	color: #6d983a; 
+	text-decoration: none;
+}
+a.Regular:link, a:link {
+	color: #6d983a;	
+}
+a.Regular:visited, a:visited {
+	color: #6d983a;	
+}
+a.Regular:hover, a:hover {
+	color: #00a4f1;	
+}
+a.Regular:active, a:active {
+	color: #6d983a;	
+}
+
+/* -- -- */
+
+a.H5 {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #6d983a; 
+	text-decoration: none;
+}
+a.H5:link {
+	color: #6d983a;	
+}
+a.H5:visited {
+	color: #6d983a;	
+}
+a.H5:hover {
+	color: #00a4f1;	
+}
+a.H5:active {
+	color: #6d983a;	
+}
+
+/* -- -- */
+
+a.H5Faint {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #4b4b4b; 
+	text-decoration: none;
+}
+a.H5Faint:link {
+	color: #4b4b4b;	
+}
+a.H5Faint:visited {
+	color: #4b4b4b;	
+}
+a.H5Faint:hover {
+	color: #00a4f1;	
+}
+a.H5Faint:active {
+	color: #4b4b4b;	
+}
+
+/* -- TAG CLOUD REGULAR -- */
+
+a.TC3 {
+	font-size: smaller;
+}
+a.TC4 {
+	font-size: small;
+}
+a.TC5 {
+	font-size: medium;
+}
+a.TC6 {
+	font-size: x-large;
+}
+a.TC7 {
+	font-size: xx-large;
+}
+
+/* -- SMALL TAG CLOUD -- */
+
+a.SMLTC3 {
+	font-size: smaller;
+}
+a.SMLTC4 {
+	font-size: small;
+}
+a.SMLTC5 {
+	font-size: medium;
+}
+a.SMLTC6 {
+	font-size: large;
+}
+a.SMLTC7 {
+	font-size: larger;
+}
+
+/* -- TAG CLOUD HP -- */
+
+a.HPTC2 {
+	color: #acacac;
+	font-size: xx-small;
+}
+a.HPTC2:hover {
+	color: #00a4f1;
+}
+a.HPTC3 {
+	color: #acacac;
+	font-size: xx-small;
+}
+a.HPTC3:hover {
+	color: #00a4f1;
+}
+a.HPTC4 {
+	color: #acacac;
+	font-size: x-small;
+}
+a.HPTC4:hover {
+	color: #00a4f1;
+}
+a.HPTC5 {
+	color: #acacac;
+	font-size: smaller;
+}
+a.HPTC5:hover {
+	color: #00a4f1;
+}
+a.HPTC6 {
+	color: #acacac;
+	font-size: medium;
+}
+a.HPTC6:hover {
+	color: #00a4f1;
+}
+a.HPTC7 {
+	color: #acacac;
+	font-size: large;
+}
+a.HPTC7:hover {
+	color: #00a4f1;
+}
+
+/* --- */
+
+a.Control {
+	color: #626262; 
+	text-decoration: none;
+	border-bottom: dotted 1px #626262;
+}
+a.Control:link {
+	color: #626262;	
+}
+a.Control:visited{
+	color: #626262;	
+}
+a.Control:hover {
+	color: #00a4f1;	
+}
+a.Control:active {
+	color: #626262;	
+}
+
+/* --- */
+
+a.Sub {
+	color: #333;
+	text-decoration: underline;
+}
+a.Sub:link {
+	color: #333;	
+}
+a.Sub:visited {
+	color: #333;	
+}
+a.Sub:hover {
+	color: #00a4f1;	
+}
+a.Sub:active {
+	color: #333;	
+}
+
+/* --- */
+
+a.Big {
+	color: #6d983a; 
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: Arial;
+}
+a.Big:link {
+	color: #6d983a;	
+}
+a.Big:visited{
+	color: #6d983a;	
+}
+a.Big:hover {
+	color: #00a4f1;	
+}
+a.Big:active {
+	color: #6d983a;	
+}
+
+/* --- */
+
+a.BigFaint {
+	color: #4b4b4b; 
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: Arial;
+}
+a.BigFaint:link {
+	color: #4b4b4b;	
+}
+a.BigFaint:visited{
+	color: #4b4b4b;	
+}
+a.BigFaint:hover {
+	color: #00a4f1;	
+}
+a.BigFaint:active {
+	color: #4b4b4b;	
+}
+
+/* --- */
+
+a.BigHeading {
+	font-family: Arial;
+	font-weight: bold;
+	color: #6d983a; 
+	text-decoration: none;
+	font-size: 14px;
+}
+a.BigHeading:link {
+	color: #6d983a;	
+}
+a.BigHeading:visited{
+	color: #6d983a;	
+}
+a.BigHeading:hover {
+	color: #00a4f1;	
+}
+a.BigHeading:active {
+	color: #6d983a;	
+}
+
+/* --- */
+
+a.Faint {
+	color: #4b4b4b;
+}
+a.Faint:link {
+	color: #4b4b4b;
+}
+a.Faint:visited {
+	color: #4b4b4b;
+}
+a.Faint:hover {
+	color: #00a4f1;
+}
+a.Faint:active {
+	color: #4b4b4b;
+}
+
+/* --- */
+
+a.FaintU {
+	color: #4b4b4b;
+	text-decoration: underline;
+}
+a.FaintU:link {
+	color: #4b4b4b;
+}
+a.FaintU:visited {
+	color: #4b4b4b;
+}
+a.FaintU:hover {
+	color: #00a4f1;
+}
+a.FaintU:active {
+	color: #4b4b4b;
+}
+
+/* --- */
+
+a.H2 {
+	font-family: Arial;
+	font-size: 18px;
+	color: #acacac;
+	margin-bottom: 10px;
+	text-decoration: underline;
+}
+a.H2:link {
+	font-size: 18px;
+	color: #acacac;
+	margin-bottom: 10px;
+}
+a.H2:visited {
+	font-size: 18px;
+	color: #acacac;
+	margin-bottom: 10px;
+}
+a.H2:hover {
+	font-size: 18px;
+	color: #00a4f1;
+	margin-bottom: 10px;
+}
+a.H2:active {
+	font-size: 18px;
+	color: #acacac;
+	margin-bottom: 10px;
+}
+
+/* --- */
+
+a.H4 {
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 19px;
+	color: #acacac;
+}
+a.H4:link {
+	color: #acacac;
+}
+a.H4:visited {
+	color: #acacac;
+}
+a.H4:hover {
+	color: #00a4f1;
+}
+a.H4:active {
+	color: #acacac;
+}
+
+/* --- */
+
+a.H4UF {
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 19px;
+	color: #4b4b4b;
+	text-decoration: underline;
+}
+a.H4UF:link {
+	color: #4b4b4b;
+}
+a.H4UF:visited {
+	color: #4b4b4b;
+}
+a.H4UF:hover {
+	color: #00a4f1;
+}
+a.H4UF:active {
+	color: #4b4b4b;
+}
+
+/* --- */
+
+a.H4U {
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 19px;
+	color: #acacac;
+	text-decoration: underline;
+}
+a.H4U:link {
+	color: #acacac;
+}
+a.H4U:visited {
+	color: #acacac;
+}
+a.H4U:hover {
+	color: #00a4f1;
+}
+a.H4U:active {
+	color: #acacac;
+}
+
+/* --- */
+
+div.LinkBox {
+	padding: 3px;
+	border: solid 1px #31441a;
+	background-color: #121c07;
+	text-align: center;
+	font-weight: bold;
+}
+div.LinkBox:hover {
+	border-color: #00a4f1;
+}
+
+/* =================[ FORMS ]================= */
+
+input {
+	vertical-align: middle;
+}
+
+input[type=submit], input[type=button] {
+	font-family: Verdana;
+	font-size: 11px;
+	padding: 2px 4px 3px 4px;
+	color: #acacac;
+	background-color: #10100f;
+	background-image: url(../../_images/forms/btn-bg-regular.gif);
+	border: solid 1px #555555;
+	margin-bottom: 1px;
+}
+input[type=submit]:hover, input[type=button]:hover {
+	border: solid 1px #888888;
+	cursor: pointer;
+}
+
+input[type=text], textarea, select {
+	border: solid 1px #6c6c6c;
+	background-color: #333;
+	padding: 3px;
+	color: #ccc;
+	font-size: 11px;
+	font-family: Verdana;
+}
+input[type=text]:hover, textarea:hover {
+	border: dotted 1px #fff;	
+}
+
+input[type=password] {
+	border: solid 1px #6c6c6c;
+	background-color: #333;
+	padding: 3px;
+	color: #eee;
+	font-size: 11px;
+	font-family: Verdana;
+}
+
+input[type=password]:hover {
+	border: dotted 1px #ddd;	
+}
+
+input.Borderless, textarea.Borderless {
+	color: #747474;
+	background-color: Transparent;
+	border: solid 1px Transparent;
+}
+textarea.Borderless:hover {
+	border: dotted 1px #fff;	
+}
+
+input.SmallBox {
+	width: 75px;
+}
+
+input.BigTextBox {
+	font-family: Arial;
+	font-size: 18px;
+}
+
+select.Big {
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+input.SuperSize[type=text] {
+	font-size: 16px;
+	font-family: Arial;
+	font-weight: bold;
+	padding: 5px;
+	width: 350px;
+}
+input.SuperSize[type=submit] {
+	font-size: 16px;
+	font-family: Arial;
+	font-weight: bold;
+}
+input.BigSize[type=submit] {
+	font-size: 13px;
+	font-family: Arial;
+	font-weight: bold;
+	background-image: url(../../_images/forms/btn-bg-large.gif);
+}
+
+/*--- 250 FORM ---*/
+
+.SmallForm input[type=text], .SmallForm input[type=password], .SmallForm textarea {
+	width: 250px;
+}
+.SmallForm textarea {
+	height: 75px;
+}
+.SmallForm input.Tiny {
+	width: 75px;
+}
+
+/*--- MEDIUM FORM ---*/
+
+.MediumForm input[type=text], .MediumForm input[type=password], .MediumForm textarea {
+	width: 300px;
+}
+.MediumForm input.Tiny {
+	width: 75px;
+}
+.MediumForm textarea {
+	height: 75px;
+}
+
+/*--- SEARCH BOX FORM ---*/
+
+input.SearchBox[type=text] {
+	padding: 3px;
+	font-size: 13px;
+}
+
+input.SearchBox[type=submit] {
+	font-size: 13px;
+}
+
+/* ============[ CONTENT BLOCKS ]============= */
+
+.Sub {
+	color: #747474;
+}
+
+div.Paragraph {
+	padding-left: 20px;
+}
+
+div.LinedBox {
+	padding: 10px;
+	border: solid 1px #333;
+}
+
+.Quote {
+	padding-left: 20px;
+}
+
+.Faint {
+	color: #4b4b4b;
+}
+
+.LightFaint {
+	color: #646363;
+}
+
+div.H2 {
+	font-family: Arial;
+	font-size: 18px;
+}
+
+.Small {
+	font-size: 10px;
+}
+
+div.Faint a {
+	color: #4b4b4b;
+}
+
+div.Faint a:hover {
+	color: #00a4f1;
+}
+
+div.ExplanationBox {
+	border-top: dotted 1px #333;
+	border-bottom: solid 1px #444;
+	background-color: #171717;
+	padding: 10px;
+	line-height: 17px;
+}
+
+.LineSpaced {
+	line-height: 16px;
+}
+
+div.MedGradient {
+	background-image: url(../../_images/layout/50-gradient.gif);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+div.Gradient 
+{
+    background-image: url(../../_images/layout/50-gradient.gif);
+	background-position: top;
+	background-repeat: repeat-x;
+	border: solid 1px #333;
+	padding: 10px;
+}
+
+/*-- --*/
+
+div.Highlight {
+	padding: 10px;
+	line-height: 16px;
+	border: solid 2px #00a4f1;
+	background-color: #191919;
+}
+div.Highlight a {
+	color: #00a4f1; 
+	text-decoration: underline;
+}
+div.Highlight a:link {
+	color: #00a4f1;	
+	text-decoration: underline;
+}
+div.Highlight a:visited{
+	color: #00a4f1;	
+	text-decoration: underline;
+}
+div.Highlight a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+div.Highlight a:active {
+	color: #00a4f1;	
+	text-decoration: underline;
+}
+div.Highlight h2 
+{
+    margin-top: 0px;
+}
+
+/*-- --*/
+
+div.CollapsableHeader {
+	text-align: left;
+	padding: 5px 10px 5px 10px;
+	border: solid 1px #333;
+	background-color: #191919;
+}
+div.CollapsableHeader h3 {
+	display: inline; 
+	vertical-align: middle;
+}
+div.CollapsableBody {
+	padding: 10px;
+	border: dotted 1px #333;
+	border-top: 0px;
+}
+
+/*-- --*/
+
+div.Framed {
+	padding: 10px;
+	line-height: 16px;
+	border: solid 2px #333;
+	background-color: #191919;
+}
+div.Framed a {
+	color: #00a4f1; 
+	text-decoration: none;
+}
+div.Framed a:link {
+	color: #00a4f1;	
+}
+div.Framed a:visited{
+	color: #00a4f1;	
+}
+div.Framed a:hover {
+	color: #fff;	
+}
+div.Framed a:active {
+	color: #00a4f1;	
+}
+
+/*-- --*/
+
+div.LightContentBox {
+	padding: 10px;
+	border: dotted 1px #333;
+}
+
+/*-- --*/
+
+div.GridViewContainer {
+	padding: 10px;
+	line-height: 16px;
+	border: solid 2px #6d983a;
+	background-color: #191919;
+}
+div.GridViewContainer a {
+	color: #6d983a; 
+	text-decoration: none;
+}
+div.GridViewContainer a:link {
+	color: #6d983a;	
+}
+div.GridViewContainer a:visited{
+	color: #6d983a;	
+}
+div.GridViewContainer a:hover {
+	color: #fff;	
+}
+div.GridViewContainer a:active {
+	color: #6d983a;	
+}
+
+/*-- --*/
+
+.SimpleFrame { 
+	display: block;
+	border: dotted 1px #444; 
+	padding: 5px;
+	background-color: #000;
+}
+.SimpleFrame:hover {
+	background-color: #151d0b;
+	border-color: #6d983a;
+}
+
+/*-- --*/
+
+div.ResponseBox { 
+	border: solid 4px #c73c3c; 
+	background-color: #ffecec; 
+	padding: 10px; 
+	color: #4a0606; 
+	font-size: 11px; 
+	font-family: Verdana; 
+	line-height: 17px; 
+}
+
+div.FeedbackBar {
+	background-color: #0A0A0A;
+	display: none;
+	padding: 10px 20% 10px 20%;
+}
+div.FeedbackBarHandle {
+	background-color: #0A0A0A;
+	border-bottom: dotted 1px #333;
+	text-align: center;
+	font-weight: bold;
+	padding: 5px;
+}
+
+
+/*-- --*/
+
+div.UploadBox {
+	padding: 3px 5px 3px 5px; 
+	background-color: #bdcea3; 
+	border: solid 2px #6d983a;
+}
+
+/* =================[ FORMATTING ]================= */
+
+.Standout {
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+span.Outline {
+	color: #6d983a;
+}
+
+.SpacedList li {
+	margin-bottom: 10px;
+}
+
+.Highlight {
+	font-weight: bold;
+	color: #00a4f1;
+}
+
+.SoftHighlight {
+	font-style: italic;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+/* ============[ ASPNET SKIN CLASSES ]============= */
+
+/*-- GridView --*/
+.GridView {
+	background-color: Transparent;
+	width: 100%;
+	
+}
+
+.GridViewHeader th {
+	padding: 5px;
+	background-color: #000;
+	color: #ccc;
+	text-align: left;
+	border-bottom: solid 1px #333;
+}
+.GridViewHeader td {
+	vertical-align: top;
+}
+.GridViewAlternatingRow td {
+	padding: 5px;
+	background-color: #2a2a2a;
+}
+.GridViewRow td {
+	padding: 5px;
+}
+.GridViewEditRow td { 
+	background-color: #FFFF00; 
+}
+.GridViewEditRow a { 
+	font-weight: bold; 
+}
+.GridViewEditRow input[type=text] { 
+	background-color: #ffffa8; 
+}
+.GridViewAlternatingRow input[type=text] {
+	width: 50px;
+}
+.GridViewRow input[type=text] {
+	width: 50px;
+}
+span.GridViewRowInError {
+	color: #6c1111;
+}
+
+/*-- GridView Large --*/
+
+.GridViewAlternatingRowLarge td {
+	padding: 5px;
+	background-color: #2a2a2a;
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: bold;
+}
+.GridViewRowLarge td {
+	padding: 5px;
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+/*-- GridView Light --*/
+
+.GridViewLightRow td {
+	padding: 5px;
+	border-bottom: dotted 1px #222;
+	color: #333;
+}
+
+.GridViewLightRow td.HighlightCell {
+	color: #acacac;
+}
+
+.GridViewLightRow td {
+	padding: 5px;
+	border-bottom: dotted 1px #222;
+	color: #707b62;
+}

@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/_masterPages/Master.master" AutoEventWireup="true" CodeFile="Regular.master.cs" Inherits="_masterPages.MasterPagesRegular" %>
+<%@ Register src="~/_controls/TabbedNavigation.ascx" tagname="TabbedNavigation" tagprefix="uc1" %>
+<%@ Register src="~/_controls/MediaAccreditationBanner.ascx" tagname="MediaBanner" tagprefix="uc1" %>
+<%@ Register src="~/_controls/RegularMasterSearchBox.ascx" tagname="SearchBox" tagprefix="uc1" %>
+<%@ Register src="~/_controls/SubNavigation.ascx" tagname="SubNavigation" tagprefix="uc1" %>
+<%@ Reference Control="~/_controls/SearchResultsBarCtrl.ascx" %>
+<%@ Reference Control="~/_controls/BasketView.ascx" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="Head" Runat="Server">
+    <asp:ContentPlaceHolder id="Head" runat="server" />
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContentArea" Runat="Server">
+    <div class="SuperContainer" style="margin-top: 20px; padding-bottom: 40px;<%= PageWidth %>">
+        <div style="padding-bottom: 10px; text-align: center; margin: 0px auto;">
+			<a title="Moto Professional" href="/"><img src="/_images/layout/mp-site-logo.gif" style="width: 514px; height: 58px; border: 0px;" alt="Moto Professional" /></a><br />
+        </div>
+        <table style="margin: 0px auto;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td align="center"><uc1:TabbedNavigation ID="_tabbedNavigation" runat="server" /></td>
+            </tr>
+        </table>
+        <img src="/_images/layout/horizontal-div.gif" style="margin-top: -1px; clear: both; display: block; width: 100%; height: 26px;" alt="div" />
+        <asp:PlaceHolder ID="_basketViewContainer" runat="server" />
+        <asp:PlaceHolder ID="_searchResultsBarContainer" runat="server" />
+        <div style="margin-top: 2px; text-align: right; float: right;">
+			<uc1:SearchBox runat="server" />
+        </div>
+        <h1 style="margin: 0px 0px 10px 0px;"><asp:ContentPlaceHolder id="PageHeading" runat="server" /></h1>
+		<table class="Spacer" cellspacing="0">
+		    <tr>
+		        <td>
+		            <img src="/_images/silk/house.png" alt="home" style="vertical-align: bottom;" /> 
+		            <asp:SiteMapPath ID="_siteMapPath" runat="server" />
+		            <asp:Literal ID="_customSiteMapPath" runat="server" Visible="false" />
+		        </td>
+		        <td align="right">
+		            <asp:LoginName ID="LoginName1" runat="server" FormatString="Welcome back {0}! " />
+                    <asp:LoginStatus ID="_loginStatus" runat="server" LoginText="" OnLoggedOut="OnLoggedOutHandler" />
+		        </td>
+		    </tr>
+		</table>
+		<hr />
+        <uc1:SubNavigation runat="server" />
+        <asp:PlaceHolder ID="_responseHolder" runat="server" Visible="false">
+			<script type="text/javascript">
+			   $(document).ready(function() {
+					  setTimeout(function() {
+							 $("#<%= _responseBox.ClientID %>").fadeOut("slow", function() {
+								   $("#<%= _responseBox.ClientID %>").remove();
+							 });
+
+					  }, 2000);
+			   });
+			</script>
+			<div id="_responseBox" runat="server" class="ResponseBox" style="margin-bottom: 10px;" />
+        </asp:PlaceHolder>
+        <asp:ContentPlaceHolder id="PageContentArea" runat="server" />
+        <hr style="margin-top: 10px;" />
+        <div class="Faint" style="float: left;">
+            ^ <a href="#">top</a> |
+            <a href="/about">about us</a> | 
+            <a href="/help/faq">faq</a> | 
+            <a href="/help/privacy">privacy</a> |
+	        <a href="http://blog.motoprofessional.com">blog</a>
+        </div>
+        <div class="Faint" style="float: right; text-align: right;">
+            Copyright &copy; <%= DateTime.Now.Year.ToString() %> <a href="http://mediapanther.com">Media Panther Network</a>
+        </div>
+        <uc1:MediaBanner runat="server" />
+    </div>
+</asp:Content>

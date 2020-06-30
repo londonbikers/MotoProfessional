@@ -1,0 +1,5 @@
+﻿##subject=Moto Professional Email Test##MOTOPROFESSIONAL.COM
+
+This is an email test. Supplied content:
+
+##0##

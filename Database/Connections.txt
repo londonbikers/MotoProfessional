@@ -1,0 +1,10 @@
+DBRefFolders found in your dbp file
+Connect String: Data Source=JAY-PC;Initial Catalog=Photos;Integrated Security=True
+Provider: Microsoft SQL Server
+
+Connect String: Data Source=JAYLAPTOPVISTA;Initial Catalog=Photos;Integrated Security=True
+Provider: Microsoft SQL Server
+
+Connect String: Data Source=JUPITER;Initial Catalog=Photos;Integrated Security=True
+Provider: Microsoft SQL Server
+

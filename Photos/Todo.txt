@@ -1,0 +1,19 @@
+﻿GENERAL
+-------------------------------------------------------------
++   Create a schedule system that executes jobs (classes?) asyncronously. IE Partner stats should be updated every fifteen minutes. 
+    Currently these are done by update-scenario events resetting the stats and the stats only updating every 15 mins. Not ideal, gets messy if an update-scenario is missed out, and adds uncessary code.
+
+
+PARTNERS UPGRADE
+-------------------------------------------------------------
+
+PUBLIC SITE
+X   "/Partners" listing page, to show a list of partners. In time this will need to be refinable by subject type and to show top partners over lesser performing ones.
+X   "/Partners/2/Double-Red" detail page for partners, showing latest collections and top photos/collections.
+X   Link photo page to partner page.
+X   Add Partners link to main navigation. - Changed to link from Photos index.
+
+
+ADMIN SITE
+
++   

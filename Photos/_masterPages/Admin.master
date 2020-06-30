@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/_masterPages/Master.master" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="_masterPages.AdminMaster" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="Head" Runat="Server">
+    <asp:ContentPlaceHolder id="Head" runat="server" />
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContentArea" Runat="Server">
+    <div class="SuperContainer" style="width: 98%; padding-top: 20px;">
+        <div style="text-align: center; margin: 0px auto;">
+			<a title="moto professional" href="/"><img src="/_images/layout/mp-site-logo.gif" style="width: 514px; height: 58px; border: 0px;" alt="Moto Professional" /></a><br />
+			<h2 style="margin: 0px;">Administration</h2>
+        </div>
+        <img src="/_images/layout/horizontal-div.gif" style="margin-top: 10px; width: 100%; height: 26px;" alt="div" />
+        <table cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <td valign="top" style="padding-right: 10px; border-right: solid 1px #333; width: 125px;">
+                    <div class="DottedBox" style="text-align: center; font-weight: bold; margin: 0px;">
+                        menu
+                    </div>
+                    <asp:SiteMapDataSource ID="_siteMapDataSource" runat="server" StartingNodeUrl="~/Admin/Default.aspx" />
+                    <div class="DottedBox">
+                        <asp:TreeView
+                            SelectedNodeStyle-Font-Underline="true"
+                            SelectedNodeStyle-Font-Bold="true" 
+                            ID="_treeMenu" 
+                            runat="server" 
+                            DataSourceID="_siteMapDataSource" 
+                            ShowExpandCollapse="false" 
+                            NodeStyle-VerticalPadding="3" />
+                    </div>
+                    <img src="/_images/arrow-left.png" style="margin-top: 2px;" alt="back" /> 
+                    <a href="/" title="go back to motorpfessional.com" class="Sub">back to mp</a><br />
+					<img src="/_images/arrow-left.png" style="margin-top: 2px;" alt="back" /> 
+					<a href="https://checkout.google.com/sell/orders" target="_blank" class="Sub">google checkout</a>
+                </td>
+                <td valign="top" style="padding-left: 10px;">
+                    <h1 style="margin-bottom: 10px;"><asp:ContentPlaceHolder id="PageHeading" runat="server" /></h1>
+                    <asp:PlaceHolder ID="_responseHolder" runat="server" Visible="false">
+						<script type="text/javascript">
+						   $(document).ready(function() {
+								  setTimeout(function() {
+										 $("#<%= _responseBox.ClientID %>").fadeOut("slow", function() {
+											   $("#<%= _responseBox.ClientID %>").remove();
+										 });
+								  }, 2000);
+						   });
+						</script>
+						<div id="_responseBox" runat="server" class="ResponseBox" style="margin-bottom: 10px;" />
+					</asp:PlaceHolder>
+                    <asp:ContentPlaceHolder id="PageContentArea" runat="server" />
+                </td>
+            </tr>
+        </table>
+    </div>
+</asp:Content>

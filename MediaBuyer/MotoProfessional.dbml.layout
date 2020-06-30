@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 25.375, 15.125" name="MotoProfessional">
+  <DataContextMoniker Name="/MotoProfessionalDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ceb7f534-6eca-4964-9c60-b22c07a2c921" absoluteBounds="5.875, 10.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/MotoProfessionalDataContext/DbCollectionPhoto" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e5eec21a-40e5-489d-96d8-5f5687b96dc1" absoluteBounds="5.8900000000000006, 10.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2cabc2b7-40aa-4d46-b133-144f73fb6449" absoluteBounds="0.75, 6.25, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/MotoProfessionalDataContext/DbCountry" />
+      <nestedChildShapes>
+        <elementListCompartment Id="13995a5d-20d2-45c9-8e9e-a8a707922188" absoluteBounds="0.765, 6.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="618b10fe-ac88-47fe-a5f7-68df6998cc0e" absoluteBounds="0.625, 4, 2, 1.3862939453124996">
+      <DataClassMoniker Name="/MotoProfessionalDataContext/DbPopularTag" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0d18095a-a020-4b6c-8b34-066b88b01bc5" absoluteBounds="0.64000000000000012, 4.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="70b18c98-4d77-46cf-8de1-4f2f56f3eb29" absoluteBounds="8.875, 0.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/MotoProfessionalDataContext/DbRateCardItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d9a38a2e-9fd9-4f8f-a7ce-600bb3929c41" absoluteBounds="8.89, 1.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5391d1b9-4b06-44aa-8dbd-bee0fb6bbf4c" absoluteBounds="12.125, 3.5, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/MotoProfessionalDataContext/DbBasketItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5bb7c97a-7d06-40d3-9258-85e424666770" absoluteBounds="12.14, 3.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6a9b54ef-e0d4-44a3-99d8-b43d89fc4bf1" absoluteBounds="16.875, 0.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/MotoProfessionalDataContext/DbOrderItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="092f7c8a-be3c-4d9f-b846-aed2089a9bcd" absoluteBounds="16.89, 0.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="805f81ba-5a16-42e0-a275-6cf10db2607a" absoluteBounds="3.5, 2.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/MotoProfessionalDataContext/DbCompanyStaff" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c9d0edd4-c60b-4e87-b31f-72f46986215b" absoluteBounds="3.5149999999999997, 2.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="23b48dc0-b4ee-4aae-8e57-f50489118ac1" absoluteBounds="13.125, 11.375, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/MotoProfessionalDataContext/DbProfile" />
+      <nestedChildShapes>
+        <elementListCompartment Id="878f4eb5-bef9-47cf-8689-3fb7e67d6bbe" absoluteBounds="13.14, 11.835, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="054b50f0-070a-4b60-be30-a1225746f792" absoluteBounds="3, 10.125, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/MotoProfessionalDataContext/DbCollection" />
+      <nestedChildShapes>
+        <elementListCompartment Id="06cf8c60-0259-4b26-8bf1-6139be120af3" absoluteBounds="3.015, 10.585, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5 : 10.8374239095052); (5.875 : 10.8374239095052)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/DbCollection/DbCollection_DbCollectionPhoto" />
+      <nodes>
+        <classShapeMoniker Id="054b50f0-070a-4b60-be30-a1225746f792" />
+        <classShapeMoniker Id="ceb7f534-6eca-4964-9c60-b22c07a2c921" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a1b3cae6-2de2-4b71-bb72-1fe0790e8958" absoluteBounds="8.875, 3.5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/MotoProfessionalDataContext/DbRateCard" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d2b559e4-4b42-45e3-aa55-499f429400b1" absoluteBounds="8.89, 3.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(10.03125 : 3.5); (10.03125 : 2.50354248046875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/DbRateCard/DbRateCard_DbRateCardItem" />
+      <nodes>
+        <classShapeMoniker Id="a1b3cae6-2de2-4b71-bb72-1fe0790e8958" />
+        <classShapeMoniker Id="70b18c98-4d77-46cf-8de1-4f2f56f3eb29" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="e80fec04-82e6-4e83-b01c-20c11d171ab1" absoluteBounds="13, 6, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/MotoProfessionalDataContext/DbOrder" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6ce5c6e1-5727-4c0f-bef7-5240c06de334" absoluteBounds="13.015, 6.46, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="443c1f03-7dc8-49bf-b024-0d9d24dd8513" absoluteBounds="15.375, 7.25, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/MotoProfessionalDataContext/DbBasket" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b5d489f7-c9d9-464b-b0fd-c71091156ece" absoluteBounds="15.39, 7.71, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(16.375 : 7.25); (16.375 : 4.38544840494792); (14.4661433333333 : 4.38544840494792 : JumpStart); (14.2994766666667 : 4.38544840494792 : JumpEnd); (14.125 : 4.38544840494792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/DbBasket/DbBasket_DbBasketItem" />
+      <nodes>
+        <classShapeMoniker Id="443c1f03-7dc8-49bf-b024-0d9d24dd8513" />
+        <classShapeMoniker Id="5391d1b9-4b06-44aa-8dbd-bee0fb6bbf4c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(15 : 6.20104307289613); (16.2916666666667 : 6.20104307289613 : JumpStart); (16.4583333333333 : 6.20104307289613 : JumpEnd); (17.5593892955276 : 6.20104307289613); (17.5593892955276 : 2.4631982421875)]" manuallyRouted="true" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/DbOrder/DbOrder_DbOrderItem" />
+      <nodes>
+        <classShapeMoniker Id="e80fec04-82e6-4e83-b01c-20c11d171ab1" />
+        <classShapeMoniker Id="6a9b54ef-e0d4-44a3-99d8-b43d89fc4bf1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(15 : 7.70274983723958); (15.375 : 7.70274983723958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/DbOrder/DbOrder_DbBasket" />
+      <nodes>
+        <classShapeMoniker Id="e80fec04-82e6-4e83-b01c-20c11d171ab1" />
+        <classShapeMoniker Id="443c1f03-7dc8-49bf-b024-0d9d24dd8513" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="9d8ed886-814b-4afd-823a-5b029ed2db96" absoluteBounds="22.375, 2.25, 2.125, 2.1554996744791666">
+      <DataClassMoniker Name="/MotoProfessionalDataContext/DbDigitalGoodsDownloadLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f96d11b2-c677-43fa-9011-99edd0f21baf" absoluteBounds="22.39, 2.71, 2.0949999999999998, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="84e6bc4c-bd3d-41f3-8834-5e4a590a02ab" absoluteBounds="19.625, 1.5, 2, 3.1170068359374996">
+      <DataClassMoniker Name="/MotoProfessionalDataContext/DbDigitalGood" />
+      <nestedChildShapes>
+        <elementListCompartment Id="798f0d9a-102e-4fcd-a43a-b9576b84b1e8" absoluteBounds="19.64, 1.96, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(21.625 : 3.20894490559896); (22.375 : 3.20894490559896)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/DbDigitalGood/DbDigitalGood_DbDigitalGoodsDownloadLog" />
+      <nodes>
+        <classShapeMoniker Id="84e6bc4c-bd3d-41f3-8834-5e4a590a02ab" />
+        <classShapeMoniker Id="9d8ed886-814b-4afd-823a-5b029ed2db96" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(18.875 : 1.87677124023438); (19.625 : 1.87677124023438)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/DbOrderItem/DbOrderItem_DbDigitalGood" />
+      <nodes>
+        <classShapeMoniker Id="6a9b54ef-e0d4-44a3-99d8-b43d89fc4bf1" />
+        <classShapeMoniker Id="84e6bc4c-bd3d-41f3-8834-5e4a590a02ab" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.38281 : 6); (14.38281 : 3.22861857096354); (17.4760559621943 : 3.22861857096354 : JumpStart); (17.6427226288609 : 3.22861857096354 : JumpEnd); (19.625 : 3.22861857096354)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/DbOrder/DbOrder_DbDigitalGood" />
+      <nodes>
+        <classShapeMoniker Id="e80fec04-82e6-4e83-b01c-20c11d171ab1" />
+        <classShapeMoniker Id="84e6bc4c-bd3d-41f3-8834-5e4a590a02ab" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="99c2d7fc-93e7-4250-8089-bbb6e9b62aba" absoluteBounds="10.375, 9.875, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/MotoProfessionalDataContext/DbPhoto" />
+      <nestedChildShapes>
+        <elementListCompartment Id="857b502f-fc85-488e-a23a-63d2ba9e759f" absoluteBounds="10.39, 10.335, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(10.375 : 10.8374239095052); (7.875 : 10.8374239095052)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/DbPhoto/DbPhoto_DbCollectionPhoto" />
+      <nodes>
+        <classShapeMoniker Id="99c2d7fc-93e7-4250-8089-bbb6e9b62aba" />
+        <classShapeMoniker Id="ceb7f534-6eca-4964-9c60-b22c07a2c921" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(12.375 : 10.15625); (12.6250005 : 10.15625); (12.6250005 : 5.08919514973958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/DbPhoto/DbPhoto_DbBasketItem" />
+      <nodes>
+        <classShapeMoniker Id="99c2d7fc-93e7-4250-8089-bbb6e9b62aba" />
+        <classShapeMoniker Id="5391d1b9-4b06-44aa-8dbd-bee0fb6bbf4c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(12.375 : 10.5628914101735); (24.852273925203 : 10.5628914101735); (24.852273925203 : 1.25453695634025); (18.875 : 1.25453695634025)]" manuallyRouted="true" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/DbPhoto/DbPhoto_DbOrderItem" />
+      <nodes>
+        <classShapeMoniker Id="99c2d7fc-93e7-4250-8089-bbb6e9b62aba" />
+        <classShapeMoniker Id="6a9b54ef-e0d4-44a3-99d8-b43d89fc4bf1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.56250125 : 5.65549967447917); (9.56250125 : 10.1447124247267); (10.375 : 10.1447124247267)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/DbRateCard/DbRateCard_DbPhoto" />
+      <nodes>
+        <classShapeMoniker Id="a1b3cae6-2de2-4b71-bb72-1fe0790e8958" />
+        <classShapeMoniker Id="99c2d7fc-93e7-4250-8089-bbb6e9b62aba" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="48f955c5-b6f4-4131-a6a5-6baf01bbd228" absoluteBounds="12.125, 0.875, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/MotoProfessionalDataContext/DbLicense" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1b9d8c8d-d002-40fa-8523-57499bef23d7" absoluteBounds="12.14, 1.335, 1.9700000000000002, 1.7878011067708333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(12.125 : 1.68927124023438); (11.2552058333333 : 1.68927124023438 : JumpStart); (11.0885391666667 : 1.68927124023438 : JumpEnd); (10.875 : 1.68927124023438)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/DbLicense/DbLicense_DbRateCardItem" />
+      <nodes>
+        <classShapeMoniker Id="48f955c5-b6f4-4131-a6a5-6baf01bbd228" />
+        <classShapeMoniker Id="70b18c98-4d77-46cf-8de1-4f2f56f3eb29" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13.125 : 2.95723714192708); (13.125 : 3.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/DbLicense/DbLicense_DbBasketItem" />
+      <nodes>
+        <classShapeMoniker Id="48f955c5-b6f4-4131-a6a5-6baf01bbd228" />
+        <classShapeMoniker Id="5391d1b9-4b06-44aa-8dbd-bee0fb6bbf4c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.125 : 1.40625); (16.875 : 1.40625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/DbLicense/DbLicense_DbOrderItem" />
+      <nodes>
+        <classShapeMoniker Id="48f955c5-b6f4-4131-a6a5-6baf01bbd228" />
+        <classShapeMoniker Id="6a9b54ef-e0d4-44a3-99d8-b43d89fc4bf1" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="18151115-e0b9-40b7-a726-33118af3f920" absoluteBounds="10, 6.25, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/MotoProfessionalDataContext/aspnet_User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cc4f7ad5-cc38-474a-9e80-df881b1f370d" absoluteBounds="10.015, 6.71, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11.0430228379086 : 6.25); (11.0430228379086 : 3.10659912109375); (10.1145833333333 : 3.10659912109375 : JumpStart); (9.94791666666667 : 3.10659912109375 : JumpEnd); (5.5 : 3.10659912109375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/aspnet_User/aspnet_User_DbCompanyStaff" />
+      <nodes>
+        <classShapeMoniker Id="18151115-e0b9-40b7-a726-33118af3f920" />
+        <classShapeMoniker Id="805f81ba-5a16-42e0-a275-6cf10db2607a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(12 : 7.08394490559896); (13 : 7.08394490559896)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/aspnet_User/aspnet_User_DbOrder" />
+      <nodes>
+        <classShapeMoniker Id="18151115-e0b9-40b7-a726-33118af3f920" />
+        <classShapeMoniker Id="e80fec04-82e6-4e83-b01c-20c11d171ab1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(12 : 8.31174967447917); (12.5416671666667 : 8.31174967447917 : JumpStart); (12.7083338333333 : 8.31174967447917 : JumpEnd); (15.375 : 8.31174967447917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/aspnet_User/aspnet_User_DbBasket" />
+      <nodes>
+        <classShapeMoniker Id="18151115-e0b9-40b7-a726-33118af3f920" />
+        <classShapeMoniker Id="443c1f03-7dc8-49bf-b024-0d9d24dd8513" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(12 : 6.81965743663051); (12.5416671666667 : 6.81965743663051 : JumpStart); (12.7083338333333 : 6.81965743663051 : JumpEnd); (12.75 : 6.81965743663051); (12.75 : 5.75); (14.2994766666667 : 5.75 : JumpStart); (14.4661433333333 : 5.75 : JumpEnd); (16.2916666666667 : 5.75 : JumpStart); (16.4583333333333 : 5.75 : JumpEnd); (17.4760559621943 : 5.75 : JumpStart); (17.6427226288609 : 5.75 : JumpEnd); (23.4375 : 5.75); (23.4375 : 4.40549967447917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/aspnet_User/aspnet_User_DbDigitalGoodsDownloadLog" />
+      <nodes>
+        <classShapeMoniker Id="18151115-e0b9-40b7-a726-33118af3f920" />
+        <classShapeMoniker Id="9d8ed886-814b-4afd-823a-5b029ed2db96" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.1875 : 8.40549967447917); (11.1875 : 9.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/aspnet_User/aspnet_User_DbPhoto" />
+      <nodes>
+        <classShapeMoniker Id="18151115-e0b9-40b7-a726-33118af3f920" />
+        <classShapeMoniker Id="99c2d7fc-93e7-4250-8089-bbb6e9b62aba" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="74920477-8b37-48b9-a484-3981611206e8" absoluteBounds="1, 0.5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/MotoProfessionalDataContext/Search" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a529cde7-0fcd-4ce1-96e7-bdb13e50f5a5" absoluteBounds="1.0149999999999997, 0.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11.1718725 : 6.25); (11.1718725 : 0.59375); (3 : 0.59375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/aspnet_User/aspnet_User_Search" />
+      <nodes>
+        <classShapeMoniker Id="18151115-e0b9-40b7-a726-33118af3f920" />
+        <classShapeMoniker Id="74920477-8b37-48b9-a484-3981611206e8" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="5a288ec9-4987-4815-bc4c-98a6c7d04804" absoluteBounds="3.5, 5.625, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/MotoProfessionalDataContext/DbCompany" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dbda59dc-1ea7-4095-9e10-1c8a78aed2c1" absoluteBounds="3.5149999999999997, 6.085, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.5 : 5.625); (4.5 : 4.07859537760417)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/DbCompany/DbCompany_DbCompanyStaff" />
+      <nodes>
+        <classShapeMoniker Id="5a288ec9-4987-4815-bc4c-98a6c7d04804" />
+        <classShapeMoniker Id="805f81ba-5a16-42e0-a275-6cf10db2607a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 7.13544840494792); (3.5 : 7.13544840494792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/DbCountry/DbCountry_DbCompany" />
+      <nodes>
+        <classShapeMoniker Id="2cabc2b7-40aa-4d46-b133-144f73fb6449" />
+        <classShapeMoniker Id="5a288ec9-4987-4815-bc4c-98a6c7d04804" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="d87fbf30-667a-41f0-bef8-3b6a30836ffe" absoluteBounds="17.625, 6.5, 2.5, 3.6939111328124996">
+      <DataClassMoniker Name="/MotoProfessionalDataContext/DbOrderTransaction" />
+      <nestedChildShapes>
+        <elementListCompartment Id="adfb2eae-a483-4fac-962e-e186bb5f6559" absoluteBounds="17.64, 6.96, 2.4699999999999998, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(15 : 6.84375); (16.2916666666667 : 6.84375 : JumpStart); (16.4583333333333 : 6.84375 : JumpEnd); (17.625 : 6.84375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/DbOrder/DbOrder_DbOrderTransaction" />
+      <nodes>
+        <classShapeMoniker Id="e80fec04-82e6-4e83-b01c-20c11d171ab1" />
+        <classShapeMoniker Id="d87fbf30-667a-41f0-bef8-3b6a30836ffe" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="f65e75d0-d53b-4aba-b635-e735c4ef36e0" absoluteBounds="6.125, 5.75, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/MotoProfessionalDataContext/DbPartner" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d2ab1929-31fd-4d82-a4a2-1f7b30e83cb7" absoluteBounds="6.14, 6.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.06257842087846 : 8.09780110677083); (7.06257842087846 : 9.75); (4.21276607561171 : 9.75); (4.21276607561171 : 10.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/DbPartner/DbPartner_DbCollection" />
+      <nodes>
+        <classShapeMoniker Id="f65e75d0-d53b-4aba-b635-e735c4ef36e0" />
+        <classShapeMoniker Id="054b50f0-070a-4b60-be30-a1225746f792" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.125 : 5.96875); (9.1249975 : 5.96875); (9.1249975 : 5.65549967447917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/DbPartner/DbPartner_DbRateCard" />
+      <nodes>
+        <classShapeMoniker Id="f65e75d0-d53b-4aba-b635-e735c4ef36e0" />
+        <classShapeMoniker Id="a1b3cae6-2de2-4b71-bb72-1fe0790e8958" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.125 : 7.3568525217484); (8.5 : 7.3568525217484); (8.5 : 10.4699627467409); (10.375 : 10.4699627467409)]" manuallyRouted="true" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/DbPartner/DbPartner_DbPhoto" />
+      <nodes>
+        <classShapeMoniker Id="f65e75d0-d53b-4aba-b635-e735c4ef36e0" />
+        <classShapeMoniker Id="99c2d7fc-93e7-4250-8089-bbb6e9b62aba" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 6.92390055338542); (6.125 : 6.92390055338542)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MotoProfessionalDataContext/DbCompany/DbCompany_DbPartner" />
+      <nodes>
+        <classShapeMoniker Id="5a288ec9-4987-4815-bc4c-98a6c7d04804" />
+        <classShapeMoniker Id="f65e75d0-d53b-4aba-b635-e735c4ef36e0" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

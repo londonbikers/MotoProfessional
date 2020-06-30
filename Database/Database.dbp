@@ -1,0 +1,57 @@
+# Microsoft Developer Studio Project File - Database Project
+Begin DataProject = "Database"
+   MSDTVersion = "80"
+   DefDBRef = "jay-pc.Photos.dbo"
+   Begin Folder = "Change Scripts"
+      Script = "aspnet_Users-ForeignKeys.sql"
+      Script = "CollectionPhotosIndex.sql"
+      Script = "ExtendLicenses.sql"
+      Script = "OrderTransactionsRestructure.sql"
+      Script = "OrderTransactionsRestructure2.sql"
+      Script = "OrderTransactionsRestructure3.sql"
+   End
+   Begin Folder = "Create Scripts"
+      Script = "Table-DigitalGoods.sql"
+      Script = "Table-DigitalGoodsDownloadLog.sql"
+      Script = "Table-Searches.sql"
+      Script = "View-LatestSearches.sql"
+   End
+   Begin DBRefFolder = "Database References"
+      Begin DBRefNode = "jay-pc.Photos.dbo"
+         ConnectStr = "Data Source=JAY-PC;Initial Catalog=Photos;Integrated Security=True"
+         Provider = "{91510608-8809-4020-8897-FBA057E22D54}"
+         Colorizer = 6
+      End
+      Begin DBRefNode = "jaylaptopvista.Photos.dbo"
+         ConnectStr = "Data Source=JAYLAPTOPVISTA;Initial Catalog=Photos;Integrated Security=True"
+         Provider = "{91510608-8809-4020-8897-FBA057E22D54}"
+         Colorizer = 6
+      End
+      Begin DBRefNode = "jupiter.Photos.dbo"
+         ConnectStr = "Data Source=JUPITER;Initial Catalog=Photos;Integrated Security=True"
+         Provider = "{91510608-8809-4020-8897-FBA057E22D54}"
+         Colorizer = 6
+      End
+   End
+   Begin Folder = "Release Scripts"
+      Script = "Release-1.sql"
+      Script = "Release-2.sql"
+      Script = "Release-3.sql"
+   End
+   Begin Folder = "Stored Procedures"
+      Script = "FindCollectionsByName.sql"
+      Script = "FindCollectionsByPhotoTag.sql"
+      Script = "FindPartnerCollectionsByName.sql"
+      Script = "FindPartnerCollectionsByTag.sql"
+      Script = "FindPhotosByTag.sql"
+      Script = "GetCollectionPhotos.sql"
+      Script = "GetCurrentTopPartners.sql"
+      Script = "GetPartnerTopSellingPhotos.sql"
+      Script = "GetPartnerTopViewedPhotos.sql"
+      Script = "GetSiteMapItems.sql"
+      Script = "GetTopSellingPhotos.sql"
+      Script = "GetTopViewedPhotos.sql"
+      Script = "IncrementPhotoViewCount.sql"
+      Script = "LogSearch.sql"
+   End
+End

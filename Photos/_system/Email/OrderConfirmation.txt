@@ -1,0 +1,26 @@
+##subject=Order Confirmation: Moto Professional##MOTOPROFESSIONAL.COM
+
+Hello ##0##,
+
+Thank-you for buying from Moto Professional. This is to confirm your
+recent order. The order is made up as follows:
+
+Order no. ##1##, ##2##
+----------------------------------------------------------------------
+
+##3##
+......................................................................
+
+Total: ##4##
+##5##
+
+----------------------------------------------------------------------
+
+You can view your order and download any photos at:
+http://motoprofessional.com/account/orders/##1##
+
+
+Yours,
+The MP team.
+http://motoprofessional.com
+Pro Photos for Everyone

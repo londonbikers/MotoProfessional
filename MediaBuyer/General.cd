@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MotoProfessional.Controller">
+    <Position X="32.5" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAgAAAiAgABAAMBQAgCQJQgABEEACAAI=</HashCode>
+      <FileName>Controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.CommonBase">
+    <Position X="12" Y="5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAASAgBAAAABAAAEAAACAAgQAAAAAAAAAAAA=</HashCode>
+      <FileName>CommonBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.Basket">
+    <Position X="25.25" Y="8.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEEAIAAGEAAACAACAAgAAEQAABAIAgAAAAAYAAAAAEA=</HashCode>
+      <FileName>Models\Basket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.Collection">
+    <Position X="22.5" Y="8.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="MotoProfessional.Models.Collection.ImportCompleteDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\Collection.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gEAwIAAEQAAwACBEIAggAQSAAAAAAAAAkAABQAAAAEg=</HashCode>
+      <FileName>Models\Collection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.CollectionPhoto">
+    <Position X="2.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Collection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.Company">
+    <Position X="28.5" Y="8.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEAQJEAEgAAgAAAEIEiAAIQACAYAAAASCIAAAEQgAEg=</HashCode>
+      <FileName>Models\Company.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.Country">
+    <Position X="20" Y="8.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAACAAAAAAAQCAAAAABAAAAAAAAAYAEA=</HashCode>
+      <FileName>Models\Country.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.License">
+    <Position X="14.75" Y="8.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BEAAIgAEAAAgAAAEQAgAAAQAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Models\License.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.Member">
+    <Position X="0.5" Y="10" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>FAEAAAAAAAGAhAAAgAAAAAAAAAAAAAAMABAAhABAAAA=</HashCode>
+      <FileName>Models\Member.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.Order">
+    <Position X="12" Y="15.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AACACAAAAAIAGAAAACAAAaIUYBAIAAAAAIAIAAAAIEQ=</HashCode>
+      <FileName>Models\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.OrderItem">
+    <Position X="14.75" Y="15.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEEAAAAWRAAAEAgAAAAAAAAAACAAAAABAAAAAAAAAEA=</HashCode>
+      <FileName>Models\OrderItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.OrderTransaction">
+    <Position X="17.25" Y="8.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="MotoProfessional.Models.OrderTransaction.GoogleCheckoutNewOrder" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\OrderTransaction.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MotoProfessional.Models.OrderTransaction.GoogleCheckoutRiskInformation" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\OrderTransaction.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MotoProfessional.Models.OrderTransaction.GoogleCheckoutOrderStateChange" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\OrderTransaction.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MotoProfessional.Models.OrderTransaction.GoogleCheckoutChargeAmount" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\OrderTransaction.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MotoProfessional.Models.OrderTransaction.GoogleCheckoutRefundAmount" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\OrderTransaction.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MotoProfessional.Models.OrderTransaction.GoogleCheckoutChargebackAmount" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\OrderTransaction.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAEAEBACAgAAAAQAgCAAAAAAIYAgiAAIAQAIAAAAgEA=</HashCode>
+      <FileName>Models\OrderTransaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.Partner">
+    <Position X="31.5" Y="8.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EEAIMBAGAAAgAAAEAggAAJQAgAQAAAAACAQCBAAAAEA=</HashCode>
+      <FileName>Models\Partner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.Photo">
+    <Position X="17.25" Y="15.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>DUAQJwAEEQAA6EQAAQkAAAQIAAKAAEJBQACDAIJAIEg=</HashCode>
+      <FileName>Models\Photo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Controllers.CommerceController" Collapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAIQAAIAAQAAAAAAAAAAABAKAAAAAAAAACIAAAgAA=</HashCode>
+      <FileName>Controllers\CommerceController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Controllers.PhotoController" Collapsed="true">
+    <Position X="17.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAACAAgQIAigAAAAAhACIAEAAAAAIAkAEAAA=</HashCode>
+      <FileName>Controllers\PhotoController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Controllers.CompanyController" Collapsed="true">
+    <Position X="20.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAABAAAAACAAgQAAAAIAAAAA=</HashCode>
+      <FileName>Controllers\CompanyController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Controllers.MemberController" Collapsed="true">
+    <Position X="19" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAQAAACAAAAAAAAA=</HashCode>
+      <FileName>Controllers\MemberController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Controllers.PartnerController" Collapsed="true">
+    <Position X="20.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAABAAAIAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Controllers\PartnerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Controllers.PeripheralController" Collapsed="true">
+    <Position X="22.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAABIAAAA=</HashCode>
+      <FileName>Controllers\PeripheralController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Logging.Logger">
+    <Position X="14.5" Y="0.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAEAAAAAAAAAAIAAJAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.TagStat">
+    <Position X="6.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAgAAAAAAAAAAQAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Models\TagStat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.BasketItem">
+    <Position X="20.5" Y="15.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAgAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Models\BasketItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.CollectionContainer">
+    <Position X="5.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAABAACAAAAAQAAAAAAAAEIAAAAABUAAA=</HashCode>
+      <FileName>Models\CollectionContainer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MotoProfessional.Models.CompanyEmployee">
+    <Position X="4.5" Y="10" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EEAAAAAEAAAAAAAIAAAAAAAAAAAAAAAAAAAABAAAABA=</HashCode>
+      <FileName>Models\CompanyEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.DigitalGood">
+    <Position X="29.5" Y="15.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAQAABAwAAIBCkAAAAAAAAAAABAAQgEAAJAAEA=</HashCode>
+      <FileName>Models\DigitalGood.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.DigitalGoodDownloadLog">
+    <Position X="31.75" Y="15.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAkAAAAAIAAAAAAAQAAAAAACAAA=</HashCode>
+      <FileName>Models\DigitalGoodDownloadLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.HotPhotos">
+    <Position X="0.5" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAEAAAAA=</HashCode>
+      <FileName>Models\HotPhotos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.LatestCollections">
+    <Position X="7" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAIAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Models\LatestCollections.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.LatestPhotos">
+    <Position X="3.25" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAACAAAAEAAAAA=</HashCode>
+      <FileName>Models\LatestPhotos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.MetaData">
+    <Position X="6.5" Y="10" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAEEQAAAAAAAQAQAAQAAACAAEAAAAAAAAAAABA=</HashCode>
+      <FileName>Models\MetaData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.ExtendedMetaData">
+    <Position X="6.75" Y="16.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CAgAgQBCCAAAAAAAAAAAAAAAAIAQAABAQAoAAABAAAQ=</HashCode>
+      <FileName>Models\MetaData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.PhotoContainer">
+    <Position X="1.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAACAAAAASAAAAAAAAEIAAAQABQAAA=</HashCode>
+      <FileName>Models\PhotoContainer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MotoProfessional.Models.PhotoProduct">
+    <Position X="8.5" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAABAgCAAAAiAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\PhotoProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.Profile">
+    <Position X="22.75" Y="15.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QABQAMABEIAABEEAAAEQAAAAAAABAAAIAYAAhAQIAEg=</HashCode>
+      <FileName>Models\Profile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.RateCard">
+    <Position X="25" Y="15.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAQIQIEAAAACAAAAAgEAAYAABAAAAIAAAAAAAAAgEg=</HashCode>
+      <FileName>Models\RateCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.RateCardItem">
+    <Position X="27.25" Y="15.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAACAAAAAAAIAAABCAAAACEA=</HashCode>
+      <FileName>Models\RateCardItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Models.TagCollection" BaseTypeListCollapsed="true">
+    <Position X="4" Y="13.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIBAEAAAAAEABAACgAABhRAAAAAAAAEQAAACABQAAA=</HashCode>
+      <FileName>Models\TagCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MotoProfessional.Models.TaggedPhotoContainer">
+    <Position X="8.5" Y="13.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAEgAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\TaggedPhotoContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.PhotoImportException">
+    <Position X="4.75" Y="21.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\PhotoImportException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Controllers.SystemController" Collapsed="true">
+    <Position X="19" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAEAAAAAAAAABAICAAAAAA=</HashCode>
+      <FileName>Controllers\SystemController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Controllers.BusinessRuleController" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAQEAAAAAAAAAAABAAAAAAAAAAAAg=</HashCode>
+      <FileName>Controllers\BusinessRuleController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Controllers.DigitalGoodController" Collapsed="true">
+    <Position X="22.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAACEEEAEAAAAEAAAAAAAAAAAAAAAAAgAAAQ=</HashCode>
+      <FileName>Controllers\DigitalGoodController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Controllers.LicenseController" Collapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAggMAAAABAAAAIAQgAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Controllers\LicenseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotoProfessional.Controllers.Photos.Tags" Collapsed="true">
+    <Position X="34.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAARAAAAAAABAAACAABQAgAAQAAAAAAA=</HashCode>
+      <FileName>Controllers\Photos\Tags.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="~/" title="Home">
+		<siteMapNode url="~/account/default.aspx" title="My Account">
+			<siteMapNode url="~/account/passwordchange/default.aspx" title="Change Your Password" />
+			<siteMapNode url="~/account/orders/default.aspx" title="Your Orders" />
+			<siteMapNode url="~/account/company/default.aspx" title="Your Company/Team" />
+			<siteMapNode url="~/account/partner/default.aspx" title="Partner Control Panel">
+				<siteMapNode url="~/account/partner/collections/default.aspx" title="Collections">
+					<siteMapNode url="~/account/partner/collections/collection.aspx" title="Collection" />
+				</siteMapNode>
+				<siteMapNode url="~/account/partner/rates/default.aspx" title="Rates" />
+				<siteMapNode url="~/account/partner/reports/default.aspx" title="Reports" />
+			</siteMapNode>
+		</siteMapNode>
+		<siteMapNode url="~/help/default.aspx" title="Help">
+			<siteMapNode url="~/help/faq/default.aspx" title="FAQ" />
+			<siteMapNode url="~/help/registration-terms/default.aspx" title="Registration Terms" />
+			<siteMapNode url="~/help/privacy/default.aspx" title="Your Privacy" />
+			<siteMapNode url="~/help/sale-terms/default.aspx" title="Sale Terms" />
+		</siteMapNode>
+		<siteMapNode url="~/about/default.aspx" title="About Us" />
+		<siteMapNode url="~/basket/default.aspx" title="Your Basket" />
+		<siteMapNode url="~/checkout/default.aspx" title="Checkout" />
+		<siteMapNode url="~/calendar/default.aspx" title="Calendar" />
+		<siteMapNode url="~/contact/default.aspx" title="Contact Us" />
+    <siteMapNode url="~/partners/default.aspx" title="Partners">
+      <siteMapNode url="~/partners/partner.aspx" title="Partner" />
+    </siteMapNode>
+		<siteMapNode url="~/feeds/default.aspx" title="Feeds" />
+		<siteMapNode url="~/photos/default.aspx" title="Photos">
+			<siteMapNode url="~/photos/search/default.aspx" title="Search" />
+		</siteMapNode>
+		<siteMapNode url="~/register/default.aspx" title="Register" />
+		<siteMapNode url="~/signin/default.aspx" title="Sign-In">
+			<siteMapNode url="~/signin/reset/default.aspx" title="Password Reset" />
+		</siteMapNode>
+		<siteMapNode url="~/admin/default.aspx" title="Admin">
+			<siteMapNode url="~/admin/sales/customers/default.aspx" title="Customers" />
+			<siteMapNode url="~/admin/sales/companies/default.aspx" title="Companies" />
+			<siteMapNode url="~/admin/sales/orders/default.aspx" title="Orders" />
+			<siteMapNode url="~/admin/sales/partners/default.aspx" title="Partners" />
+			<siteMapNode url="~/admin/sales/photos/collections.aspx" title="Collections" />
+			<siteMapNode url="~/admin/sales/photos/default.aspx" title="Photos" />
+			<siteMapNode url="~/admin/sales/photos/licenses.aspx" title="Licenses" />
+			<siteMapNode url="~/admin/system/default.aspx" title="System" />
+		</siteMapNode>
+	</siteMapNode>
+</siteMap>
