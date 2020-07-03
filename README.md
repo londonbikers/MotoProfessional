@@ -2,7 +2,7 @@
 An eCommerce store we created to sell our racing photographs. During a server migration we lost the photo file store and took the decision to leave the website offline. We also broke the build by going crazy with ReSharper suggestions. Can be fixed.
 
 Development stack:
-* ASP.NET MVC
+* ASP.NET Web Forms
 * SQL Server
 
 ## Design
