@@ -14,3 +14,5 @@ Development stack:
 Latest logo:
 
 <img src="https://londonbikersarchive.blob.core.windows.net/github/MotoProfessional-Logo-on-white.png" alt="latest MotoProfessional logo" width="500" />
+
+<img src="https://londonbikersarchive.blob.core.windows.net/github/mp-flyer-cover.jpg" alt="MotoProfessional flyer" width="500" />
