@@ -15,4 +15,6 @@ Latest logo:
 
 <img src="https://londonbikersarchive.blob.core.windows.net/github/MotoProfessional-Logo-on-white.png" alt="latest MotoProfessional logo" width="500" />
 
+One of our flyers we distributed at race meets for the teams:
+
 <img src="https://londonbikersarchive.blob.core.windows.net/github/mp-flyer-cover.jpg" alt="MotoProfessional flyer" width="500" />
